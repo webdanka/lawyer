@@ -1769,6 +1769,14 @@ input::-webkit-inner-spin-button {
     margin-top: 40px;
   }
 
+  .section-about__image::before {
+    display: none;
+  }
+
+  .section-about__image::after {
+    display: none;
+  }
+
   .application-contacts {
     margin-bottom: 40px;
   }
@@ -1866,6 +1874,10 @@ input::-webkit-inner-spin-button {
 
   .application-form {
     padding: 40px 20px;
+  }
+
+  .application-contects a {
+    font-size: 36px;
   }
 }
 
